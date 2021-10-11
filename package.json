@@ -8,7 +8,6 @@
     "lite-server": "lite-server",
     "install": "npm install webpack webpack-cli -D",
     "build": "webpack",
-    "prestart": "npm run webpack",
     "start": "node server.js"
   },
   "repository": {
