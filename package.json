@@ -8,7 +8,6 @@
     "lite-server": "lite-server",
     "install": "npm install webpack webpack-cli -D",
     "build": "webpack",
-    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress",
     "start": "node server.js"
   },
   "repository": {
