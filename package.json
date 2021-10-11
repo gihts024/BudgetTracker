@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "heroku-prebuild": "npm install --dev",
     "build": "webpack"
   },
   "repository": {
